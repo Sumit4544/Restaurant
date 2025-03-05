@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/006/353/small_2x/abstract-black-and-orange-layer-geometric-background-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding:0 40px;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+}
+
+.nav{
+    position: relative;
+    left: -180px;
+    
+}
+
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.search{
+    font-size: 25px;
+}
+
+.search i{
+    padding: 5px 20px;
+}
+
+/* heading */
+
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+    
+}
+
+.right{
+    width: 440px;
+    height: 440px;
+    background-image: url(https://media.istockphoto.com/id/1348318884/photo/plate-of-mexican-food-tacos.jpg?s=612x612&w=0&k=20&c=Vt8vi4-sCaum6YrzAiAkH7lUJK5mtp2zYT3uYw1M7iA=);
+    background-size: cover;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right::before{
+    width: 430px;
+    height: 430px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 430px;
+    padding: 10px;
+    
+}
+
+.left p:nth-child(1){
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    font-style: italic;
+}
+
+.left h1{
+    font-size: 90px;
+    color: white;
+}
+
+.left p:nth-child(3){
+    font-size: 30px;
+    color: orange;
+    font-style: italic;
+}
+
+.left button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0;
+}
+
+.socialmedia{
+    
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+
+}
+.socialmedia i:hover{
+    color: orange;
+}
+
+/* ......bottom...... */
+
+#food1, #food2{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0, 20px;
+    border: 2px solid white;
+    margin: 0 20px;
+}
+
+#food1{
+    background-image: url(https://media.istockphoto.com/id/1190330112/photo/fried-pork-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=TzvLLGGvPAmxhKJ6fz91UGek-zLNNCh4iq7MVWLnFwo=);
+}
+
+#food2{
+    background-image: url(https://media.istockphoto.com/id/1348318884/photo/plate-of-mexican-food-tacos.jpg?s=612x612&w=0&k=20&c=Vt8vi4-sCaum6YrzAiAkH7lUJK5mtp2zYT3uYw1M7iA=);
+}
+
+.menu{
+    display: flex;
+    margin: 10px 100px;
+
+}
+
+.bottom .menu #orderpage{
+    border-radius: 20%;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 50px;
+    margin: 20px 10px;
+    height: 50px;
+}
+
